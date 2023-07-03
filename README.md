@@ -1,4 +1,4 @@
-# React-episode_2
+
 # Question Answer Section
 1> What is NPM?
 - NPM full form is not there.
@@ -39,7 +39,7 @@ normal dependencies =======> npm install parcel
 =======================================================================================================================================
 # Importing Notebook
 - caret ---> ^ (Suppose we have parcel of 2.2.1 version is there and if there is any minor update happen then its will automatically update the version to 2.2.2)
-tilde ---> ~ (Suppose we have parcel of 2.2.1 version is there and if there is any major update happen then its will automatically update the version to 3.2.1)
+- tilde ---> ~ (Suppose we have parcel of 2.2.1 version is there and if there is any major update happen then its will automatically update the version to 3.2.1)
 - ** Its is recommended to use caret(^);
 - ** If we want the exact version and dont want to upgrade then we can remove caret(^) or tilde(~).
 
