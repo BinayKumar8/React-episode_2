@@ -1,0 +1,11 @@
+Notes For Episode-3
+=====================
+- npm run start/npm start(to start the server in dev)
+- npm run build(to start the server in production)
+- we use script file on package.json to write the command to start the server.We dont need to write npx parcel index.html again to start the server.
+***** React.createElement is an object
+- React.createElement is an object when we render it to the DOM it becomes html.
+JSX:
+====
+- JSX is javascript syntax to create react elements.
+** JSX is not a part of React.JSX is a convension where we merge both HTML and JS file togeather.
