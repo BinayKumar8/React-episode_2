@@ -9,3 +9,15 @@ JSX:
 ====
 - JSX is javascript syntax to create react elements.
 ** JSX is not a part of React.JSX is a convension where we merge both HTML and JS file togeather.
+- JSX is transpiled before it reaches the JS Engine.
+- BEBALE is a javascript compiler.It takes the JSX code and make it the way what react will understand.
+- If we have to use attributes in JSX we have to use camel case.
+
+Components
+===========
+- There are 2 types of components present in React.
+1. Class Based Component (OLD way)
+2. Function Component (NEW way)
+
+- Component inside Component ==> Component Composition
+- JSX prevents cross site scripting.

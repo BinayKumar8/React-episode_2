@@ -2947,16 +2947,82 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
-// JSX
 const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+    className: "head",
     children: "Namaste React using JSX \uD83D\uDE80"
 }, void 0, false, {
     fileName: "App.js",
-    lineNumber: 5,
+    lineNumber: 4,
     columnNumber: 20
 }, undefined); // This is JSX.
+const Jsx = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        className: "head",
+        children: "Namaste React using JSX as functional component \uD83D\uDE80"
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 6,
+        columnNumber: 5
+    }, undefined);
+_c = Jsx;
+const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        className: "title",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Jsx, {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 12,
+                columnNumber: 9
+            }, undefined),
+            "This is Title component",
+            jsxHeading
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 11,
+        columnNumber: 5
+    }, undefined);
+_c1 = Title;
+const number = 1000;
+const HeadingComponent2 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "main",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 21,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                className: "heading2",
+                children: [
+                    "Namaste React using Functional component ",
+                    number
+                ]
+            }, void 0, true, {
+                fileName: "App.js",
+                lineNumber: 22,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 20,
+        columnNumber: 5
+    }, undefined);
+_c2 = HeadingComponent2;
+//React Fuctional Component
+// const HeadingComponent = () => {  // 1
+//     return <h1 className="heading">Heading component</h1>;
+// }
+//  1 and 2 both are same valid functional component
 const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
-root.render(jsxHeading);
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent2, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 32,
+    columnNumber: 13
+}, undefined));
+var _c, _c1, _c2;
+$RefreshReg$(_c, "Jsx");
+$RefreshReg$(_c1, "Title");
+$RefreshReg$(_c2, "HeadingComponent2");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
