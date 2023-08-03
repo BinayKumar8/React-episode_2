@@ -1,4 +1,4 @@
-# React-episode_2
+# ReactJS
 # PARCEL
 - Dev Build
 - Local Server
