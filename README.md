@@ -1,4 +1,4 @@
-# React-episode_2
+# More About Parcel
 # PARCEL
 - Dev Build
 - Local Server
