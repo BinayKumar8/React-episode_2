@@ -1,13 +1,12 @@
-# Props In React
-- Props stand for properties in react.
--  props is a normal argument for a function.
-- we can pass any nymber of props and react will wrap it as an object.
-# In React
-- Config Driven UI
-- We can handel the UI by different dynamic data by using different configuration.That is know as config driven UI.
+- First we need to export the component and then we can import it.
+- Never put any cord file in your component file.
+- Its good to have create constant in capital letter and sneek case.
 
-# Optional chaining (?.)
-- The optional chaining (?.) operator accesses an object's property or calls a function. If the object accessed or function called      using this operator is undefined or null, the expression short circuits and evaluates to undefined instead of throwing an error.
-** We have to give a key when we do the mapping.
-- key is a reseved keyword in react.
-- React say dont use index as key.
+# Export
+- First way to export the list/component by using export deafult componentName/listName.(DEFEAULT EXPORT)
+- Second way to export using name.(NAME EXPORT).
+- In a single file if there is two or more things to export we can use name export.
+- In one file we have one deafult export.
+- When ever we import a name export we can write it like import { exportname }.
+# React Hook
+- 
