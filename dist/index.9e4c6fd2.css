@@ -50,4 +50,21 @@
   display: flex;
 }
 
+.filter {
+  justify-content: end;
+  margin: 10px;
+  display: flex;
+}
+
+.filter-btn {
+  margin-right: 10px;
+  padding: 5px;
+  cursor: pointer !important;
+}
+
+.clear-btn {
+  padding: 5px;
+  cursor: pointer !important;
+}
+
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

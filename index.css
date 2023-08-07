@@ -40,3 +40,23 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.filter {
+    margin: 10px;
+    display: flex;
+    justify-content: end;
+}
+.filter-btn {
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer !important;
+    /* background: #06e306;
+    color: white;
+    border: 0px; */
+}
+.clear-btn {
+    padding: 5px;
+    cursor: pointer !important;
+    /* color: white;
+    border: 0px;
+    background: red; */
+}
